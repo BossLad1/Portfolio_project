@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <a href="index.html">Home Page</a>
+    <a href="table.html">Table Page</a>
+    <a href="contact.html">Contact Page</a>
+    <br />
+    <hr />
+    <h1>Contact me</h1>
+    <form>
+      <label for="Name">Name:</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        required
+        minlength="5"
+        maxlength="20"
+        pattern="^[a-zA-Z]+$"
+      />
+      <br /><br />
+
+      <label for="Email">Email:</label>
+      <input type="text" name="Email" id="Email" required />
+      <br /><br />
+
+      <label for="Message">Message:</label>
+      <textarea
+        id="Message"
+        name="Message"
+        rows="10"
+        cols="100"
+        minlength="5"
+        maxlength="20"
+      ></textarea>
+      <br /><br />
+
+      <label for="Priority">Priority:</label>
+      <select name="Priority" id="Priority-select">
+        <option value="">Select Priority</option>
+        <option value="Critical">Critical</option>
+        <option value="Major">Major</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+      </select>
+      <br /><br />
+
+      <input type="Submit" value="Submit" />
+    </form>
+    <br /><br />
+    <hr />
+
+    <footer>&copy; 2023 Hauwa Ibrahim. All Right Reserved</footer>
+  </body>
+</html>
